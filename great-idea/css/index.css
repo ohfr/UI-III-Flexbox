@@ -271,3 +271,13 @@ section button {
 footer {
 	text-align: center;
 }
+
+
+@media screen and (max-width: 675px) {
+	.mid-container {
+		flex-flow: column wrap;
+	}
+	.bottom-container {
+		flex-flow: column nowrap;
+	}
+}
